@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
+    },
+    avatar:{
+        type: String,
+        default: "https://source.unsplash.com/random",
     }
 },{timestamps: true}); 
 
