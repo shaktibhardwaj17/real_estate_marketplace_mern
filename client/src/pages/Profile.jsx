@@ -176,4 +176,4 @@ export default function Profile() {
       <p className="text-green-700 mt-5">{updateSuccess ? 'User is Updated Successfully!!' : ''}</p>
     </div>
   );
-}
+};
