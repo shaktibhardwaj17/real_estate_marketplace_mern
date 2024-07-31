@@ -57,7 +57,7 @@ export default function SignIn() {
           onChange={handleChange}
         />
         <button disabled={loading} className="bg-indigo-800 p-3 rounded-lg uppercase hover:opacity-70 text-white">
-         { loading ? 'Loading...' : 'Sign Up'}
+         { loading ? 'Loading...' : 'Sign In'}
         </button>
         <OAuth/>
       </form>
